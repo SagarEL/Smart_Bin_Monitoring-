@@ -82,7 +82,7 @@ For this system to work, set up your ThingSpeak channel with the following field
                                         │ LoRa
                                         │ 433MHz
                                         ▼
-┌───────────────┐   LoRa   ┌───────────────┐    WiFi     ┌───────────────┐
+┌───────────────┐   LoRa   ┌───────────────┐    WiFi      ┌───────────────┐
 │ Bin 2 Sensor  │ ─────────┤ Receiver      │ ─────────────┤ ThingSpeak    │
 │ (Transmitter) │  433MHz  │ (ESP8266)     │   HTTP       │ Cloud         │
 └───────────────┘          └───────────────┘              └───────────────┘
