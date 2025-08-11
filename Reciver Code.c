@@ -133,6 +133,7 @@ void loop() {
   }
 }
 
+
 void setupWiFi() {
   WiFi.begin(ssid, password);
   int attempts = 0;
