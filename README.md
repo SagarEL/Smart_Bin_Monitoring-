@@ -6,7 +6,7 @@ This project consists of two main components:
 
 ## Arduino Setup (Receiver)
 
-The receiver code (`Reciver Code.cpp`) is designed to run on a NodeMCU ESP8266 with:
+The receiver code (`Reciver Code.c`) is designed to run on a NodeMCU ESP8266 with:
 - LoRa module for receiving data from multiple bin sensors
 - WiFi for ThingSpeak data transmission
 - Optional GSM module for SMS alerts
@@ -50,7 +50,7 @@ The Streamlit app (`smart_bin_monitoring.py`) provides a real-time dashboard for
 
 1. Install Python dependencies:
    ```
-   pip install -r requirements.txt
+   CMD: pip install -r requirements.txt
    ```
 
 2. Configure ThingSpeak connection:
@@ -60,7 +60,7 @@ The Streamlit app (`smart_bin_monitoring.py`) provides a real-time dashboard for
 
 3. Run the application:
    ```
-   streamlit run smart_bin_monitoring.py
+   CMD: streamlit run smart_bin_monitoring.py
    ```
 
 ### ThingSpeak Channel Setup
@@ -100,6 +100,4 @@ For this system to work, set up your ThingSpeak channel with the following field
                                                         └───────────────┘
 ```
 
-## Additional Resources
 
-See `ESP8266_SETUP.md` for detailed instructions on setting up the ESP8266 environment.
