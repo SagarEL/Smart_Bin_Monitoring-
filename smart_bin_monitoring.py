@@ -12,6 +12,7 @@ from datetime import datetime, timedelta
 import math
 from itertools import permutations
 
+
 # ThingSpeak Configuration
 THINGSPEAK_CHANNEL_ID = "2972661"  # Replace with your ThingSpeak channel ID
 THINGSPEAK_READ_API_KEY = "W1XZ25JKU231F3BK"  # Replace with your ThingSpeak read API key
